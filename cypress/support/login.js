@@ -6,8 +6,8 @@ describe('Colleague Portal', function() {
 	      
     cy.visit("/login");
 	cy.title().should('eql', 'Careem Colleague Portal');
-	//cy.get('input[name="username"]').type ('colleague')
-	//cy.get('input[name="password"]').type ('colleague')
+	//cy.get('input[name="username"]').type ('abc')
+	//cy.get('input[name="password"]').type ('abc')
 		
 	cy
       .get('input[name="username"]')
